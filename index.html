@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Ruchi Bhalani</title>
+        <meta name="description" content="Ruchi Bhalani's Personal Website">
+        <meta name="author" content="Ruchi Bhalani">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="play-pause">
+            <a id="click" onclick="toggle()"><img id="image" src="images/pause.png" /></a>
+        </div>
+        <div class="title">
+            <div id="app"></div>
+            <!-- <div class="header"></div> -->
+        </div>
+
+        <div class="nav-bar">
+            <ul>
+                <img src="images/avatar.png" alt="Avatar" class="avatar">
+                <li><a href="#about">about</a> +</li>
+                <!-- <li><a href="#research">research</a> +</li> -->
+                <li><a href="#projects">projects</a> +</li>
+                <li><a href="#contact">contact</a> +</li>
+                <li> <a class="ext" href="https://www.linkedin.com/in/ruchi-bhalani/" target="_blank">linkedin</a> +</li>
+                <li> <a class="ext" href="https://github.com/r-bhalani" target="_blank">github</a> +</li>
+                <li> <a class="ext" href="https://gitlab.com/r-bhalani" target="_blank">gitlab</a> +</li>
+                <li> <a href="./files/resume.pdf" class="file" target="_blank">resume</a> +</li>
+
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <div id="mobile-links">
+                <a class="ext" href="https://www.linkedin.com/in/ruchi-bhalani/" target="_blank">linkedin</a> | <a class="ext" href="https://github.com/r-bhalani" target="_blank">github</a> | <a href="./files/resume.pdf" class="file" target="_blank">resume</a>
+            </div>
+            <a class="anchor" id="about"></a>
+            <h1>About</h1>
+            <div class="text">
+                I'm <span class="color-blue">Ruchi</span>, a 2nd year computer science major at UT Austin with a concentration in <span class="color-blue">ML/AI</span>. I'm currently working as a <span class="color-yellow">peer mentor</span> and <span class="color-yellow">undergraduate researcher</span> for the <a class="ext" href="https://www.cs.utexas.edu/~larg/index.php/Learning_Agents_Research_Group">Learning Agents Research Group</a> at the <a class="ext" href="https://www.cs.utexas.edu/users/ai-lab/">AI Lab</a>. Our most recent project was <span class="color-yellow">Tail Wagging the Dog: Perceptions of Canine vs. Non-Canine Behavior on a Quadruped Robot</span>, which won the CS Award of Excellence at the 2022 Undergraduate Research Forum and was submitted to RO-MAN 2022.
+                <br /><br />
+                This summer, I'm going to be working as a <span class="color-orange">Software Development Engineering Intern</span> at <span class="color-orange">Amazon</span>.
+                <br /><br />
+                <div class="extra">
+                    <!-- I've been peer mentoring for the <span class="color-green">Autonomous Robots</span> FRI Stream (<span class="color-green">CS 309</span>) since Spring 2022, where I help students with C++ and ROS robotics and computer visualization projects.
+                    <br /><br />
+                    Additionally, I'm serving as a Technical Project Manager for <span class="color-green">Texas Convergent Forge</span>, where we are mentoring a team of engineers throgh building an e-commerce website for the non-profit <span class="color-green">Junior Achievement of Southeast Texas</span>, allowing student entrepeneurs to sell their products.
+                    <br /><br /> -->
+                    In my free time, you can find me exploring new trails, learning new instruments, or watching movies! 
+                </div>
+            </div>
+
+            <a class="anchor" id="projects"></a>
+            <h1>Projects</h1>
+            
+            <!-- uncomment if you want tiles instead -->
+                <section class="tiles">
+                    <article class="style1">
+                        <span class="image">
+                            <img src="images/spot-experiment.png" alt=""/>
+                        </span>
+                        <a href="https://github.com/r-bhalani/spot_social_body_language" target="_blank">
+                            <h2>Spot Making Social Body Language</h2>
+                            <div class="content">
+                                <h3>C++</h3>
+                                <p>This project presents a development process to improve upon Boston Dynamics's quadruped robot Spot navigation behaviors to produce behaviors that are more dog-like in appearance.</p>
+                                <b>Winner of 2022 CNS Award for Excellence in Computer Science and Computer Engineering.</b>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style2">
+                        <span class="image">
+                            <img src="images/darwin.JPG" alt="" />
+                        </span>
+                        <a href="https://github.com/r-bhalani/i_like_to_move_it_move_it">
+                            <h2>Human Body Movement Recognition and Robotic Emulation</h2>
+                            <div class="content">
+                                <h3>Python | ROS</h3>
+                                <p>Body imitation by a humanoid simulation using Azure Kinect SDK for body tracking, ROS, and the Darwin-OP. The system can process a video of human body movements, categorize the movements, and then accurately imitate it on a humanoid robot.</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="style3">
+                        <span class="image">
+                            <img src="images/dim-dis.png" alt="" />
+                        </span>
+                        <a href="https://gitlab.com/daniamir/sweproject">
+                            <h2>Diminishing Disasters</h2>
+                            <div class="content">
+                                <h3>React | SQL Alchemy | Postgre SQL | Python | Postman | Jest | Selenium </h3>
+                                <p>Website that connects users to charitable organizations providing relief for natural disasters around the world.</p>
+                            </div>
+                        </a>
+                    </article>
+                </section>
+
+            <a class="anchor" id="contact"></a>
+            <h1>Contact</h1>
+            <div class="text">
+                Feel free to contact me with any questions at <a class="ext" >ruchi (dot) bhalani (at) utexas (dot) edu!
+            </div>
+
+            <h5>
+                this web page supports vim-like keybindings! Try out different ones such as: j, k, gg, G, zr, zR, zc, zC, zo, etc.
+            </h5>
+
+        </div>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
