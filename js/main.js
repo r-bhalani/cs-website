@@ -3,7 +3,7 @@ var app = document.getElementById('app');
 var typewriter = new Typewriter(app, {
     cursor: '⬜',
     delay: 40,
-    deleteSpeed: 10,
+    deleteSpeed: 20,
     loop: true
 });
 
@@ -14,14 +14,17 @@ typewriter.typeString('> Hello! My name is ')
     // .deleteAll()
     .deleteChars(32)
     .changeDelay(50)
-    .typeString('I am a 2nd year ')
+    .typeString('I am a 3rd year ')
     .changeDelay(120)
     .typeString('<span class="color-green">computer science major</span>.')
     .pauseFor(1500)
     .deleteChars(33)
-    .typeString('n <span class="color-yellow">undergraduate research assistant</span>.')
+    .typeString('n <span class="color-green">integrated Master\'s student</span>.')
+    .pauseFor(1500)
+    .deleteChars(28)
+    .typeString('<span class="color-yellow">undergraduate research assistant</span>.')
     .pauseFor(1000)
-    .deleteChars(35)
+    .deleteChars(36)
     .typeString(' <span class="color-yellow">peer mentor</span>.')
     .pauseFor(1500)
     .deleteChars(12)
